@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #c31432;
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);
+  background: linear-gradient(to right, #240b36, #c31432);
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.container {
+  margin-top: 70px;
+}
+
+.myInfo {
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 40px 30px;
+}
+
+.repoNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.repoNav input {
+  padding: 15px;
+  border-radius: 11px;
+  background-color: #e6f2f7;
+  width: 35%;
+  border: 0.2px solid linear-gradient(to right, #240b36, #c31432);
+}
+
+.Repos {
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 40px 30px;
+}
+
+.myInfo img {
+  width: 200px;
+  height: auto;
+}
+
+ul li {
+  list-style: none;
+  text-align: left;
+}
+
+.my-repos h1 {
+  text-align: center;
+}
+
+.Repo {
+  border: 1px solid #899499;
+  background-color: #1d1a39;
+  padding: 8px 20px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  line-height: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.git-logo {
+  width: 60px;
+  height: auto;
+}
+.r {
+  padding: 40px 30px;
+}
+
+.Repo h2 {
+  font-size: 16px;
+  color: #e5e4e2;
+}
+
+.Repo p {
+  font-size: 12px;
+  color: #899499;
+}
+
+.pagination button {
+  border-style: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #1d1a39;
+  color: #fff;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  cursor: pointer;
+}
