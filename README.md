@@ -2,8 +2,6 @@
 
 This project was created with ReactJs and Vanilla CSS
 
-## Available Scripts
-
 The first page has a list of all my Github Repositories with Pagination enable. A Search and Filter feature is also to be Implemented but am not yet done with that.
 
 When you click on a repo on the first page it wiill take you to anotherpage showing data for that single repo when page. (Yet to be Implemented)
